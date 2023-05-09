@@ -25,8 +25,8 @@ img {
   border-radius: 10px;
   background-color: white;
   box-shadow: 0px 10px 14px -15px rgba(0, 0, 0, 0.1); }
-  .card-img {
-    background: url("/images/image-product-mobile.jpg") no-repeat center/cover;
+  .card .card-img {
+    background: url("../images/image-product-mobile.jpg") no-repeat center/cover;
     height: 400px;
     border-radius: 10px 10px 0 0; }
   .card-text {
@@ -34,17 +34,17 @@ img {
     display: flex;
     flex-direction: column;
     gap: 1.5rem; }
-  .card-subtitle {
+  .card .card-subtitle {
     text-transform: uppercase;
     font-weight: 500;
-    color: #3c8067;
+    color: #6c7289;
     letter-spacing: 2px; }
   .card-title {
     font-family: "Fraunces", serif;
     font-size: 2rem;
     font-weight: 700; }
-  .card-p {
-    color: #3c8067;
+  .card .card-p {
+    color: #6c7289;
     line-height: 1.6;
     font-size: 14px; }
   .card-price {
@@ -80,8 +80,8 @@ img {
 @media (min-width: 800px) {
   .card {
     flex-direction: row; }
-    .card-img {
-      content: url("/images/image-product-desktop.jpg");
+    .card .card-img {
+      background: url("../images/image-product-desktop.jpg");
       width: 50%;
       height: 100%;
       border-radius: 10px 0 0 10px; }
