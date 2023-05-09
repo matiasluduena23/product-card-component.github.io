@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap");
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background: #f2ebe3;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1;
+  overflow-x: hidden;
+  display: grid;
+  place-items: center;
+  height: 100vh; }
+
+img {
+  display: block;
+  width: 100%; }
+
+.card {
+  width: 90%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 10px 14px -15px rgba(0, 0, 0, 0.1); }
+  .card-img {
+    background: url("/images/image-product-mobile.jpg") no-repeat center/cover;
+    height: 400px;
+    border-radius: 10px 10px 0 0; }
+  .card-text {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem; }
+  .card-subtitle {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #3c8067;
+    letter-spacing: 2px; }
+  .card-title {
+    font-family: "Fraunces", serif;
+    font-size: 2rem;
+    font-weight: 700; }
+  .card-p {
+    color: #3c8067;
+    line-height: 1.6;
+    font-size: 14px; }
+  .card-price {
+    display: flex;
+    align-items: center;
+    justify-content: start; }
+    .card-price .card-new-price {
+      font-family: "Fraunces", serif;
+      font-size: 2rem;
+      color: #3c8067;
+      margin-right: 1rem; }
+    .card-price .card-old-price {
+      color: #6c7289;
+      text-decoration: line-through; }
+  .card-button {
+    background-color: #3c8067;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .card-button:hover {
+      background-color: #265040; }
+    .card-button .btn-icon-card {
+      width: 15px;
+      margin-right: 1rem; }
+
+@media (min-width: 800px) {
+  .card {
+    flex-direction: row; }
+    .card-img {
+      content: url("/images/image-product-desktop.jpg");
+      width: 50%;
+      height: 100%;
+      border-radius: 10px 0 0 10px; }
+    .card-text {
+      width: 50%; } }
