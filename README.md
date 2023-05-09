@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here]()
-- Live Site URL: [Add live site URL here]()
+- Solution URL: [Solution](https://github.com/matiasluduena23/product-card-component.github.io)
+- Live Site URL: [Website](https://matiasluduena23.github.io/product-card-component.github.io/)
 
 ## My process
 I used Sass to nested tags and organize my CSS in a better way.
