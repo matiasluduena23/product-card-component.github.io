@@ -11,7 +11,7 @@ body {
   overflow-x: hidden;
   display: grid;
   place-items: center;
-  height: 100vh; }
+  min-height: 100vh; }
 
 img {
   display: block;
@@ -19,6 +19,7 @@ img {
 
 .card {
   width: 90%;
+  height: 450px;
   max-width: 600px;
   display: flex;
   flex-direction: column;
@@ -27,6 +28,7 @@ img {
   box-shadow: 0px 10px 14px -15px rgba(0, 0, 0, 0.1); }
   .card-img {
     background: url("../images/image-product-mobile.jpg") no-repeat center/cover;
+    background-size: cover;
     height: 400px;
     border-radius: 10px 10px 0 0; }
   .card-text {
