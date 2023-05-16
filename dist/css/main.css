@@ -19,7 +19,6 @@ img {
 
 .card {
   width: 90%;
-  height: 450px;
   max-width: 600px;
   display: flex;
   flex-direction: column;
@@ -81,7 +80,8 @@ img {
 
 @media only screen and (min-width: 800px) {
   .card {
-    flex-direction: row; }
+    flex-direction: row;
+    height: 450px; }
     .card-img {
       width: 50%;
       background: url("../images/image-product-desktop.jpg") no-repeat center/cover;

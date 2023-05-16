@@ -32,7 +32,6 @@ img {
 
 .card {
   width: 90%;
-  height: 450px;
   max-width: 600px;
   display: flex;
   flex-direction: column;
@@ -112,7 +111,6 @@ img {
       width: 15px;
       margin-right: 1rem;
     }
-
   }
 }
 
@@ -121,9 +119,8 @@ img {
 
   .card {
     flex-direction: row;
-  
+    height: 450px;
    
-
       &-img {
       width: 50%;
       background: url('../images/image-product-desktop.jpg')no-repeat center / cover ;
@@ -135,7 +132,7 @@ img {
       width: 50%;
     }
   }
-  }
+}
 
 
   
